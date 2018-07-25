@@ -13,7 +13,7 @@
        </br>
       <div>
         <h3>Database structure: </h3>
-        ![](images/blog_famille_db)
+        <img src="images/blog_famille_db>
       </div>
         <h3>Create a new model User to create table and class file</h3>
         <code>rails generate model User</code>

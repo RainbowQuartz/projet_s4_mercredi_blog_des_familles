@@ -21,10 +21,18 @@
           <il>likes</il>
           <il>comment</il>
         </ul>
+     </div>
+      <div>
         <img src="images/blog_famille_db.png">
       </div>
-        <h3>Create a new model User to create table and class file</h3>
-        <code>rails generate model User</code>
+      <div>
+        <h3>Create a new model for the different tables:</h3>
+        <code>$ rails generate model User</code>
+        <code>$ rails generate model Article</code>
+        <code>$ rails generate model Category</code>
+        <code>$ rails generate model Like</code>
+        <code>$ rails generate model Comment</code>
+    </div>
 </body>
 </html>
 

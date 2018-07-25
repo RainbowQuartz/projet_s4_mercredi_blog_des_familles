@@ -6,11 +6,24 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'faker'
-=begin
+
 10.times do
   user = User.create(first_name: Faker::Name.name, last_name: Faker::Name.name, email: Faker::Internet.email)
 end
-=end
+
 10.times do
-  article = Article.create(title: Faker::Lorem.word, content: Faker::Lorem.paragraph, user_id: Faker::Number.between(1, 10))
+  article = Article.create(title: Faker::Lorem.word, content: Faker::Lorem.paragraph, user_id: Faker::Number.between(1, 10), category_id: Faker::Number.between(1, 10))
 end
+
+10.times do
+  category = Category.create(name: Faker::LordOfTheRings.character)
+end
+
+10.times do
+  comment = Comment.create(content: Faker::Lorem.paragraph, article_id: Faker::Number.between(1, 10))
+end
+
+10.times do
+  like = Like.create(user_id: Faker::Number.between(1, 10) , article_id: Faker::Number.between(1, 10))
+end
+

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h1>App ruby blod de famille - THP</h1>
+  <h1>App ruby blog de famille - THP</h1>
     <h2>Groupe de Rennes Leona Chevrel et Christophe Leray </h2>
       <h3>Ruby version: 2.5.1</h3>
-      <h3>Création de l'app ruby</h3>
+      <h3>Ruby app creation</h3>
       <p>Create a new app in your favorite folder, the app will be called blog_famille here</p>
         <code>$ rails new blog_famille</code>
         <p>Add gem faker in the gemfile: require 'faker'</p>
@@ -13,7 +13,15 @@
        </br>
       <div>
         <h3>Database structure: </h3>
-        <img src="images/blog_famille_db">
+        <p>5 tables:</p>
+        <ul> 
+          <il>user</il>
+          <il>articles</il>
+          <il>categories</il>
+          <il>likes</il>
+          <il>comment</il>
+        </ul>
+        <img src="images/blog_famille_db.png">
       </div>
         <h3>Create a new model User to create table and class file</h3>
         <code>rails generate model User</code>

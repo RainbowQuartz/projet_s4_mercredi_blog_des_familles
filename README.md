@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
 <body>
+  <div>
   <h1>App ruby blog de famille - THP</h1>
     <h2>Groupe de Rennes Leona Chevrel et Christophe Leray </h2>
       <h3>Ruby version: 2.5.1</h3>
-      <h3>Ruby app creation</h3>
-      <p>Create a new app in your favorite folder, the app will be called blog_famille here</p>
-        <code>$ rails new blog_famille</code>
-        <p>Add gem faker in the gemfile: require 'faker'</p>
-        <p>Then run the commande bunde install to install all the gem:</p> 
+   <h2>How to install and test?</h2>
+      <h4>Download or clone the repository</h4>
+        <code>$ git clone https://github.com/RainbowQuartz/projet_s4_mercredi_blog_des_familles.git</code>
+      <h4>Run the command bundle install to install the necessary gems</h4>
         <code>$ bundle install</code>
-       </br>
+      <h4>Update your database strucutre, as the database in not sent to github, it is necessary tu run the fiddrenets migrations:</h4>
+        <code>$ rails db:migrate</code> 
+      <h4><Add data into your database trhoght the seed file:</h4>
+        <code>$ rails db:seed</code>
+      <h4>open the rails consol with rails consol command and check if datas have been created by using the following command:</h4>
+        <code>User.all</code>
+        <code>Article.all</code>
+        <code>Category.all</code>
+        <code>Comment.all</code>
+        <code>Like.all</code>
+      </div>
       <div>
-        <h3>Database structure: </h3>
+        <h2>Database structure: </h3>
         <p>5 tables:</p>
         <ul> 
           <il>user</il>
@@ -25,14 +35,6 @@
       <div>
         <img src="images/blog_famille_db.png">
       </div>
-      <div>
-        <h3>Create a new model for the different tables:</h3>
-        <code>$ rails generate model User</code>
-        <code>$ rails generate model Article</code>
-        <code>$ rails generate model Category</code>
-        <code>$ rails generate model Like</code>
-        <code>$ rails generate model Comment</code>
-    </div>
 </body>
 </html>
 

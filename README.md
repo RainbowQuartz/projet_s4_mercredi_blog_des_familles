@@ -10,11 +10,11 @@
         <code>$ git clone https://github.com/RainbowQuartz/projet_s4_mercredi_blog_des_familles.git</code>
       <h4>Run the command bundle install to install the necessary gems</h4>
         <code>$ bundle install</code>
-      <h4>Update your database strucutre, as the database in not sent to github, it is necessary tu run the fiddrenets migrations:</h4>
+      <h4>Update your database structure with the migration command.The database in not uploaded to github, so it is necessary tu run the differents migrations:</h4>
         <code>$ rails db:migrate</code> 
-      <h4><Add data into your database trhoght the seed file:</h4>
+      <h4><Add data into your database with the seed file:</h4>
         <code>$ rails db:seed</code>
-      <h4>open the rails consol with rails consol command and check if datas have been created by using the following command:</h4>
+      <h4>Open the rails consol with rails consol command and check if datas have been created by using the following command:</h4>
         <code>User.all</code>
         <code>Article.all</code>
         <code>Category.all</code>
@@ -37,27 +37,3 @@
       </div>
 </body>
 </html>
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

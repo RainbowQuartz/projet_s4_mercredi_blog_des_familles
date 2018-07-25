@@ -1,3 +1,4 @@
+# Appartenances pour la table articles
 class Article < ApplicationRecord
   belongs_to :user
   belongs_to :category

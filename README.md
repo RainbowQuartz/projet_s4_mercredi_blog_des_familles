@@ -12,7 +12,7 @@
         <code>$ bundle install</code>
        </br>
       <h3>Database structure: </h3>
-  <a href="https://drive.google.com/open?id=1RsETYo3vtQIJ57rI_4IEq0G2GCWQK7C</a>
+  <a href="https://drive.google.com/open?id=1RsETYo3vtQIJ57rI_4IEq0G2GCWQK7C>Database structure</a>
         <h3>Create a new model User to create table and class file</h3>
         <code>rails generate model User</code>
 </body>

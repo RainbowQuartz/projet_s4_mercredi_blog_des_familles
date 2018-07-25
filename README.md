@@ -11,8 +11,10 @@
         <p>Then run the commande bunde install to install all the gem:</p> 
         <code>$ bundle install</code>
        </br>
-      <h3>Database structure: </h3>
-  <a href="https://drive.google.com/open?id=1RsETYo3vtQIJ57rI_4IEq0G2GCWQK7C>Database structure</a>
+      <div>
+        <h3>Database structure: </h3>
+        <img src="https://drive.google.com/open?id=1RsETYo3vtQIJ57rI_4IEq0G2GCWQK7C">
+      </div>
         <h3>Create a new model User to create table and class file</h3>
         <code>rails generate model User</code>
 </body>

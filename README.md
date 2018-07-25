@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>App ruby blog de famille - THP</title>
-</head>
 <body>
   <h1>App ruby blod de famille - THP</h1>
     <h2>Groupe de Rennes Leona Chevrel et Christophe Leray </h2>
-      <h3>Ruby version: </h3>
+      <h3>Ruby version: 2.5.1</h3>
       <h3>Création de l'app ruby</h3>
-      <p>Create a new app in your facvorite folder, the app will be called blog_famille here</p>
+      <p>Create a new app in your favorite folder, the app will be called blog_famille here</p>
         <code>$ rails new blog_famille</code>
-        <p>then tun the commande:</p> 
+        <p>Add gem faker in the gemfile: require 'faker'</p>
+        <p>Then run the commande bunde install to install all the gem:</p> 
         <code>$ bundle install</code>
+       </br>
       <h3>Database creation</h3>
       </code>
       <code>$ rails db:migrate</code>

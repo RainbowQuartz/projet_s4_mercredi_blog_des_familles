@@ -11,14 +11,9 @@
         <p>Then run the commande bunde install to install all the gem:</p> 
         <code>$ bundle install</code>
        </br>
-      <h3>Database creation</h3>
-      </code>
-      <code>$ rails db:migrate</code>
-      <p>table users has been created. To check open syour database with sqlite3 as follow: </p>
-      <code>$  sqlite3 development.sqlite3</code>
-      <p>Then run .tables command and you'll see the users table</p>
-      <h3>Create a new model User</h3>
-      <p></p>
+      <h3>Database structure: </h3>
+  <a href="https://drive.google.com/open?id=1RsETYo3vtQIJ57rI_4IEq0G2GCWQK7C</a>
+        <h3>Create a new model User to create table and class file</h3>
         <code>rails generate model User</code>
 </body>
 </html>

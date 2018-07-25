@@ -25,11 +25,11 @@
         <h2>Database structure: </h3>
         <p>5 tables:</p>
         <ul> 
-          <li>user</li>
+          <li>users</li>
           <li>articles</li>
           <li>categories</li>
           <li>likes</li>
-          <li>comment</li>
+          <li>comments</li>
         </ul>
      </div>
       <div>
